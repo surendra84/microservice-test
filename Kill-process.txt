@@ -1,0 +1,9 @@
+To identify the pid for the process
+
+netstat -a -o -n
+
+C:\Users\HP>netstat -a -o -n
+
+To kill the process:
+
+C:\Users\HP>taskkill /f /pid 6860
